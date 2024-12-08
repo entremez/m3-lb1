@@ -1,0 +1,10 @@
+main {
+    margin-top: 1rem;
+}
+
+.navbar {
+    &--active {
+        color: $active_color_font;
+        background-color: $active_color_background;
+    }
+}

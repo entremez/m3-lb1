@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>HOME</title>
+  </head>
+
+    <body class="d-flex flex-column h-100">
+
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="d-block mx-auto mb-4" src="images/logo.jpg" alt="" width="80" onclick="logo()"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link navbar--active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-success" type="button" onclick="reserva()">RESERVAR</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Begin page content -->
+  <main class="flex-shrink-0">
+
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4" src="images/logo.jpg" alt="" width="200">
+      <h1 class="display-5 fw-bold">Clinica ZZZ</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea a sapiente quas cumque ipsam ut voluptate magni fugit corrupti, doloremque quo enim maiores, dicta recusandae nesciunt consectetur! Dicta, ea esse!</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Servicios</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Servicio 1</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nam minima molestiae error, libero a. Esse iste consequuntur atque, ipsum enim distinctio aspernatur animi, commodi voluptates numquam omnis tempore blanditiis.</p>
+        <a href="#" class="icon-link">
+          Ver servicio
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Servicio 2</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nam minima molestiae error, libero a. Esse iste consequuntur atque, ipsum enim distinctio aspernatur animi, commodi voluptates numquam omnis tempore blanditiis.</p>
+        <a href="#" class="icon-link">
+          Ver servicio
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Servicio 3</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nam minima molestiae error, libero a. Esse iste consequuntur atque, ipsum enim distinctio aspernatur animi, commodi voluptates numquam omnis tempore blanditiis.</p>
+        <a href="#" class="icon-link">
+          Ver servicio
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+    </div>
+    </div>
+
+    <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom">Testimonios</h2>
+    
+    <div class="container marketing">
+
+      <div class="row">
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+          <h2 class="fw-normal">Testimonio 1</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-secondary" href="#">Ver testimonio completo »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+          <h2 class="fw-normal">Testimonio 2</h2>
+          <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+          <p><a class="btn btn-secondary" href="#">Ver testimonio completo »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+          <h2 class="fw-normal">Testimonio 3</h2>
+          <p>And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-secondary" href="#">Ver testimonio completo »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div>
+  
+    </div>
+  </div>
+
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer  bg-primary">
+    <div class="container text-center">
+        <span class="text-white">         
+          Hospital - 2024 | mail@hospital.com
+        </span>
+    </div>
+</footer>
+
+      </body>
+</html>

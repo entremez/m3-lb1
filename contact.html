@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>TEAM</title>
+  </head>
+
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="d-block mx-auto mb-4" src="images/logo.jpg" alt="" width="80" onclick="logo()"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link navbar--active" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-success" type="button">RESERVAR</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Begin page content -->
+  <main class="flex-shrink-0">
+
+<div class="container contact">
+    <div class="col-md-7 col-lg-8">
+      <h4 class="mb-3">Formulario de contacto</h4>
+      <form>
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <label for="firstName" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+          </div>
+
+          <div class="col-sm-6">
+            <label for="lastName" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+          </div>
+
+          <div class="col-12">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+          </div>
+
+          <div class="col-12">
+            <label for="exampleFormControlTextarea1">Comentario</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+
+        </div>
+
+        <hr class="my-4">
+        <button class="w-100 btn btn-primary btn-lg" type="button" onclick="sendForm()">Enviar</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container mt-4">
+    <section>
+      <h1>Mapa de ubicación</h1>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7437241203!2d-70.62804872359177!3d-33.42992517339776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf4fb4f26ef1%3A0x216a94370a6cd71!2sAdalid%20Especialistas%20en%20Formaci%C3%B3n!5e0!3m2!1ses!2scl!4v1729555676265!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer  bg-primary">
+    <div class="container text-center">
+        <span class="text-white">         
+          Hospital - 2024 | mail@hospital.com
+        </span>
+    </div>
+</footer>
+
+      </body>
+</html>
